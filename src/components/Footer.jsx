@@ -25,7 +25,7 @@ function Footer() {
           </div>
 
           <div className="flex justify-center items-center hover:bg-orange-300 hover:duration-300 rounded-full p-2">
-            <a href="https://github.com/NasirAhmad-dev/website.git" target="_blank">
+            <a href="https://github.com/NasirAhmad-dev/porfolio.git" target="_blank">
               <i class="fa-brands fa-github text-3xl cursor-pointer "></i>
             </a>
           </div>
