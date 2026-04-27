@@ -286,7 +286,7 @@ function MyService() {
                     </button>
 
                     <button className="w-auto h-15  border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-md md:h-15 cursor-pointer  text-center">
-                      <a href="/cv.pdf" download>
+                      <a href="/cv.pdf" download >
                         Download CV
                       </a>
                     </button>

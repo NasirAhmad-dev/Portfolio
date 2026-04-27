@@ -33,8 +33,7 @@ function Navbar() {
             onClick={() => setOpen(!open)}
           />
           <a
-            href="/cv.pdf"
-            download
+            href="/cv.pdf"download
             className="hidden md:block w-auto h-10 bg-violet-400 text-white rounded-full px-10 hover:bg-orange-300 cursor-pointer py-2"
           >
             Download CV
