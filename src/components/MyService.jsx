@@ -163,18 +163,13 @@ function MyService() {
                     laborum doloremque?
                   </p>
                   <div className="flex flex-col gap-5 text-xl mt-5 md:flex-row md:px-10">
-                    <Link to="/Contact">
-                      <button className="w-auto h-15 border-3 rounded-full border-violet-500 bg-violet-500 text-white active:bg-orange-300 active:border-orange-300 md:px-5 lg:px-10 md:text-lg md:h-14 cursor-pointer">
-                        Contact Me
-                      </button>
-                    </Link>
-                    <a
-                      href="/cv.pdf"
-                      download
-                      className="w-auto h-15 border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-lg md:h-14 py-3 cursor-pointer"
-                    >
-                      Download CV
-                    </a>
+                    <button className="w-auto h-15 border-3 rounded-full border-violet-500 bg-violet-500 text-white active:bg-orange-300 active:border-orange-300 md:px-5 lg:px-10 md:text-lg md:h-14 cursor-pointer">
+                      <Link to="/Contact">Contact Me</Link>
+                    </button>
+
+                    <button className="w-auto h-15  border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-md md:h-15 cursor-pointer  text-center">
+                      <a href="/cv.pdf" download>Download CV</a>
+                    </button>
                   </div>
                 </div>
                 <div className="bg-purple-500 rounded-4xl flex justify-center z-10">
