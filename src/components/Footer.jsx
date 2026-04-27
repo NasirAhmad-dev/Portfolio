@@ -14,19 +14,19 @@ function Footer() {
 
           <div className="flex justify-center items-center hover:bg-orange-300 hover:duration-300 rounded-full p-2">
             <a href="https://www.facebook.com/nasirahmad.amiri.168894" target="_blank">
-            <i class="fa-brands fa-facebook-f text-3xl"></i>
+            <i className="fa-brands fa-facebook-f text-3xl"></i>
             </a>
           </div>
 
           <div className="flex justify-center items-center hover:bg-orange-300 hover:duration-300 rounded-full p-2">
             <a href="#" target="_blank">
-              <i class="fa-brands fa-instagram text-3xl "></i>
+              <i className="fa-brands fa-instagram text-3xl "></i>
             </a>
           </div>
 
           <div className="flex justify-center items-center hover:bg-orange-300 hover:duration-300 rounded-full p-2">
             <a href="https://github.com/NasirAhmad-dev/portfolio.git" target="_blank">
-              <i class="fa-brands fa-github text-3xl cursor-pointer "></i>
+              <i className="fa-brands fa-github text-3xl cursor-pointer "></i>
             </a>
           </div>
         </div>

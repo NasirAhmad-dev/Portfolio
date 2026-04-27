@@ -5,7 +5,7 @@ function Services() {
   return (
     <>
       <div className="">
-        <div className="max-w-[1400px] flex flex-col md:flex-row md:justify-center md:items-center md:gap-5 mx-auto px-5">
+        <div className="max-w-[1400px] flex flex-col md:flex-row md:justify-center md:items-center md:gap-5 mx-auto px-5 mb-10">
           <div className="flex flex-col gap-10 mb-30 ">
             <span className="text-lg text-yellow-600">Service</span>
             <h1 className="text-5xl font-bold ">

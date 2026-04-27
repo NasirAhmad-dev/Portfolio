@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Button from "./Button";
 import { easeInOut, easeOut, motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { div } from "framer-motion/client";
+
 function MyService() {
-  const [activeButton, setActiveButton] = useState(null);
+  const [show, setShow] = useState(null);
   return (
     <>
       <div>
@@ -46,7 +48,7 @@ function MyService() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:items-center md:gap-5 ">
+          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:items-center md:gap-5 relative">
             <motion.img
               whileHover={{ scale: 1.09, rotate: 5 }}
               transition={{ duration: 0.3 }}
@@ -58,17 +60,47 @@ function MyService() {
               01.
             </span>
             <div className="flex flex-col gap-3 md:items-start">
-              <h1 className=" text-4xl font-bold">Product Designn</h1>
+              <h1 className=" text-4xl font-bold">Product Design</h1>
               <p className="text-gray-800 text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 magni ipsam esse obcaecati distinctio temporibus illo error iure
                 amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
               </p>
-              <Button text="See Detail" />
+              <motion.button
+                onClick={() => setShow(1)}
+                whileHover={{ y: [0, 10, 0] }}
+                transition={{ duration: 0.4 }}
+                className="h-15 w-full md:w-auto bg-purple-600 text-white text-xl rounded-full md:px-12 hover:bg-orange-300 cursor-pointer "
+              >
+                See Detail
+              </motion.button>
             </div>
+            {show === 1 && (
+              <div className="px-5 absolute z-50 top-15 sm:left-2/23 md:left-2/12 lg:left-2/8">
+                <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)]">
+                  <h1 className="text-4xl font-semibold">
+                    About Product Design
+                  </h1>
+                  <p className="text-gray-500 text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque fuga quia aut laboriosam laudantium, ipsam
+                    excepturi distinctio. Similique rerum blanditiis possimus
+                    minus, at eos eaque tempora obcaecati unde porro nostrum.
+                  </p>
+                  <button
+                    className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
+                    onClick={() => setShow(null)}
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
 
-          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:items-center md:gap-5">
+          {/* --------------------------------------------------------- */}
+
+          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:items-center md:gap-5 relative">
             <motion.img
               whileHover={{ scale: 1.09, rotate: 5 }}
               transition={{ duration: 0.3 }}
@@ -86,11 +118,39 @@ function MyService() {
                 magni ipsam esse obcaecati distinctio temporibus illo error iure
                 amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
               </p>
-              <Button text="See Detail" />
+              <motion.button
+                onClick={() => setShow(2)}
+                whileHover={{ y: [0, 10, 0] }}
+                transition={{ duration: 0.4 }}
+                className="h-15 w-full md:w-auto bg-purple-600 text-white text-xl rounded-full md:px-12 hover:bg-orange-300 cursor-pointer "
+              >
+                See Detail
+              </motion.button>
             </div>
+            {show === 2 && (
+              <div className="px-5 absolute z-50 top-15 sm:left-2/23 md:left-2/12 lg:left-2/8">
+                <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)]">
+                  <h1 className="text-4xl font-semibold">About Branding</h1>
+                  <p className="text-gray-500 text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque fuga quia aut laboriosam laudantium, ipsam
+                    excepturi distinctio. Similique rerum blanditiis possimus
+                    minus, at eos eaque tempora obcaecati unde porro nostrum.
+                  </p>
+                  <button
+                    className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
+                    onClick={() => setShow(null)}
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
 
-          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:gap-5 md:items-center">
+          {/* -------------------------------------------------------------- */}
+
+          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:gap-5 md:items-center relative">
             <motion.img
               whileHover={{ scale: 1.09, rotate: 5 }}
               transition={{ duration: 0.3 }}
@@ -101,39 +161,97 @@ function MyService() {
             <span className="text-4xl md:text-6xl lg:text-7xl font-bold text-orange-500">
               03.
             </span>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 md:items-start">
               <h1 className=" text-4xl font-bold">Brand Identity</h1>
               <p className="text-gray-800 text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 magni ipsam esse obcaecati distinctio temporibus illo error iure
                 amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
               </p>
-              <Button text="See Detail" />
+              <motion.button
+                onClick={() => setShow(3)}
+                whileHover={{ y: [0, 10, 0] }}
+                transition={{ duration: 0.4 }}
+                className="h-15 w-full md:w-auto bg-purple-600 text-white text-xl rounded-full md:px-12 hover:bg-orange-300 cursor-pointer "
+              >
+                See Detail
+              </motion.button>
             </div>
+            {show === 3 && (
+              <div className="px-5 absolute z-50 top-15 sm:left-2/23 md:left-2/12 lg:left-2/8">
+                <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)]">
+                  <h1 className="text-4xl font-semibold">
+                    About Brand Identity
+                  </h1>
+                  <p className="text-gray-500 text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque fuga quia aut laboriosam laudantium, ipsam
+                    excepturi distinctio. Similique rerum blanditiis possimus
+                    minus, at eos eaque tempora obcaecati unde porro nostrum.
+                  </p>
+                  <button
+                    className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
+                    onClick={() => setShow(null)}
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
 
-          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:gap-5 md:items-center">
+          {/* ---------------------------------------------------------- */}
+
+          <div className="flex flex-col gap-3 md:grid md:grid-cols-[90px_1fr_1fr] md:items-center md:gap-5 relative">
             <motion.img
               whileHover={{ scale: 1.09, rotate: 5 }}
               transition={{ duration: 0.3 }}
               src="./images/computer.jpg"
-              alt="image4"
+              alt="image2"
               className="md:order-1 rounded-4xl"
             />
             <span className="text-4xl md:text-6xl lg:text-7xl font-bold text-orange-500">
               04.
             </span>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 md:items-start">
               <h1 className=" text-4xl font-bold">UI/UX Design</h1>
               <p className="text-gray-800 text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 magni ipsam esse obcaecati distinctio temporibus illo error iure
                 amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
               </p>
-              <Button text="See Detail" />
+              <motion.button
+                onClick={() => setShow(4)}
+                whileHover={{ y: [0, 10, 0] }}
+                transition={{ duration: 0.4 }}
+                className="h-15 w-full md:w-auto bg-purple-600 text-white text-xl rounded-full md:px-12 hover:bg-orange-300 cursor-pointer "
+              >
+                See Detail
+              </motion.button>
             </div>
+            {show === 4 && (
+              <div className="px-5 absolute z-50 top-15 sm:left-2/23 md:left-2/12 lg:left-2/8">
+                <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)] ">
+                  <h1 className="text-4xl font-semibold">About UI/UX</h1>
+                  <p className="text-gray-500 text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia, aspernatur atque? Earum, quas, eos soluta eum, dicta
+                    totam adipisci maiores nobis repellendus provident labore
+                    odio dignissimos. Sit dolore sed molestias?
+                  </p>
+                  <button
+                    className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
+                    onClick={() => setShow(null)}
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
+
+        {/* -------------------------------------------------------------------- */}
 
         <div>
           <div className="overflow-x-hidden py-20 px-10">
@@ -168,7 +286,9 @@ function MyService() {
                     </button>
 
                     <button className="w-auto h-15  border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-md md:h-15 cursor-pointer  text-center">
-                      <a href="/cv.pdf" download>Download CV</a>
+                      <a href="/cv.pdf" download>
+                        Download CV
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -183,6 +303,10 @@ function MyService() {
             </div>
           </div>
         </div>
+
+        {show && (
+          <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-10"></div>
+        )}
       </div>
     </>
   );

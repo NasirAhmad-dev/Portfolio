@@ -32,7 +32,7 @@ function Hero() {
                   <Link to="/Contact"> Contact Me</Link>
                 </button>
                 <button className="w-auto h-15 border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-lg md:h-15 text-center">
-                  <a href="/cv.pdf">Download CV</a>
+                  <a href="/cv.pdf " download>Download CV</a>
                 </button>
               </div>
             </div>
