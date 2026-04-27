@@ -20,9 +20,9 @@ function Services() {
               <br />
               adipisci quibusdam amet ducimus cum!
             </p>
-            <Link to="/Service">
-              <button className="w-auto h-16 border-3 rounded-full bg-violet-400 border-violet-400 text-white text-lg active:bg-orange-300 active:border-orange-300  md:w-50 cursor-pointer"> Service</button>
-            </Link>
+            <button className="w-auto h-16 border-3 rounded-full bg-violet-400 border-violet-400 text-white text-lg active:bg-orange-300 active:border-orange-300  md:w-50 cursor-pointer">
+              <Link to="/Service">Service</Link>
+            </button>
           </div>
 
           {/* =================== cart ========================= */}
