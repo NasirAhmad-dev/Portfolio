@@ -15,14 +15,14 @@ function AboutMe() {
               </div>
             </div>
             <div className=" flex flex-col  gap-10 relative  z-10  md:text-center md:w-[70vw] mx-auto py-20 ">
-              <h1 className="text-3xl md:text-5xl lg:text-7xl xl:text-6xl font-bold">About Me</h1>
+              <h1 className="text-3xl md:text-5xl lg:text-7xl xl:text-6xl font-bold">
+                About Me
+              </h1>
               <p className="text-md text-gray-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-                ipsa excepturi dolore optio pariatur harum illum labore
-                explicabo facilis consequuntur deserunt placeat libero obcaecati
-                sapiente sunt nisi officiis cumque praesentium quam totam, et ut
-                impedit! Officia quod hic accusantium obcaecati est beatae
-                voluptatum ab facere, ipsa explicabo et laborum doloremque?
+                I am a passionate Web Developer dedicated to building modern,
+                responsive, and user-friendly websites. I enjoy creating clean
+                designs and interactive digital experiences that help businesses
+                and individuals grow in the online world.
               </p>
             </div>
           </div>
@@ -48,15 +48,13 @@ function AboutMe() {
                   Nasir Ahmad
                 </h1>
                 <p className="text-gray-700 lg:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati quam atque, repudiandae ipsa minus placeat
-                  inventore, iste deserunt consectetur nesciunt beatae soluta
-                  ipsum. Optio explicabo obcaecati quae incidunt, a quos
-                  corporis? Atque incidunt accusamus reprehenderit suscipit illo
-                  iusto labore dolore, culpa ad expedita laborum autem impedit
-                  quibusdam ducimus. Nobis nesciunt adipisci cupiditate.
-                  Corrupti veniam reiciendis, tenetur officiis culpa suscipit
-                  debitis voluptatibus obcaecati aspernatur.
+                  My name is Nasir Ahmad, and I am a creative Web Developer with
+                  a strong passion for front-end development and modern web
+                  design. I enjoy turning ideas into real and functional
+                  websites using technologies like React, Tailwind CSS, and
+                  JavaScript. My focus is on creating fast, responsive, and
+                  visually appealing user experiences that work perfectly across
+                  all devices.
                 </p>
               </div>
 
@@ -66,25 +64,33 @@ function AboutMe() {
                 </span>
                 <div className=" grid grid-cols-1 gap-10 justify-center md:grid md:grid-cols-2  md:gap-x-20">
                   <div className="flex flex-col gap-1 items-center md:flex-row">
-                    <div className="bg-green-500 p-5 rounded-full mr-5"><i class="fa-solid fa-laptop text-2xl md:text-4xl justify-center items-center"></i></div>
+                    <div className="bg-green-500 p-5 rounded-full mr-5">
+                      <i class="fa-solid fa-laptop text-2xl md:text-4xl justify-center items-center"></i>
+                    </div>
                     <h1 className="text-lg font-semibold text-gra">
                       Graphick Designer
                     </h1>
                   </div>
-                  <div className="flex gap-1 flex-col items-center md:flex-row"> 
-                    <div className="bg-yellow-600 p-5 rounded-full mr-5"><i class="fa-solid fa-laptop text-2xl md:text-4xl"></i></div>
+                  <div className="flex gap-1 flex-col items-center md:flex-row">
+                    <div className="bg-yellow-600 p-5 rounded-full mr-5">
+                      <i class="fa-solid fa-laptop text-2xl md:text-4xl"></i>
+                    </div>
                     <h1 className="text-lg font-semibold text-gra">
                       UX/UI Designer
                     </h1>
                   </div>
                   <div className="flex flex-col gap-1  items-center md:flex-row">
-                    <div className="bg-yellow-600 p-5 rounded-full mr-5"><i class="fa-solid fa-camera text-2xl md:text-4xl "></i></div>
+                    <div className="bg-yellow-600 p-5 rounded-full mr-5">
+                      <i class="fa-solid fa-camera text-2xl md:text-4xl "></i>
+                    </div>
                     <h1 className="text-lg font-semibold text-gra">
                       Photography
                     </h1>
                   </div>
                   <div className="flex flex-col gap-1 items-center md:flex-row">
-                    <div  className="bg-green-500 p-5 rounded-full mr-5"><i class="fa-solid fa-video text-2xl md:text-4xl  justify-center items-center "></i></div>
+                    <div className="bg-green-500 p-5 rounded-full mr-5">
+                      <i class="fa-solid fa-video text-2xl md:text-4xl  justify-center items-center "></i>
+                    </div>
                     <h1 className="text-lg font-semibold text-gra">
                       Videography
                     </h1>

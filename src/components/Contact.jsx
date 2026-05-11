@@ -19,12 +19,11 @@ function Contact() {
                 Contact Me
               </h1>
               <p className="text-md text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-                eum quaerat animi tenetur alias aspernatur delectus cupiditate
-                autem, ratione dolorum voluptatem consequuntur vitae suscipit
-                aperiam magni error fuga consequatur unde? Ducimus magnam sed,
-                labore eos sint eveniet at et, ut corrupti consequatur est
-                cumque. Autem nam minima debitis quae ratione.
+                If you have any questions, project ideas, or collaboration
+                requests, feel free to contact me. I am always open to
+                discussing new opportunities and working on creative web
+                development projects that bring value and great user
+                experiences.{" "}
               </p>
             </div>
           </div>
@@ -42,10 +41,10 @@ function Contact() {
               "Sent Message to Me, and Let's Work Together"
             </h1>
             <p className="text-gray-600 md:text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Exercitationem nisi, illo repellendus debitis dicta cum, veritatis
-              suscipit officia earum sunt ab recusandae molestias atque adipisci
-              aut non illum ipsam culpa.
+              I am available for freelance work and collaboration. If you need a
+              modern website, UI design, or web application, feel free to reach
+              out. I will respond as soon as possible and would be happy to help
+              bring your ideas to life.{" "}
             </p>
             <div className="flex items-center gap-5">
               <div className="bg-rose-400 rounded-full p-4">

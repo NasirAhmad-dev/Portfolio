@@ -22,9 +22,9 @@ function Hero() {
               <h1 className="text-5xl font-bold lg:text-7xl">Nasir Ahmad</h1>
               <h3 className="text-4xl">Web Developer</h3>
               <p className="text-lg text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime{" "}
-                <br />
-                consequatur ex explicabo nemo sunt harum error delectus.
+                Skilled in building responsive and interactive web applications
+                with modern technologies. Focused on clean design, performance,
+                and user experience.
               </p>
               {/* ====================== button =================================== */}
               <div className="flex flex-col gap-5 text-xl mt-5 md:flex-row md:px-10">
@@ -32,7 +32,9 @@ function Hero() {
                   <Link to="/Contact"> Contact Me</Link>
                 </button>
                 <button className="w-auto h-15 border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-lg md:h-15 text-center">
-                  <a href="/cv.pdf " download>Download CV</a>
+                  <a href="/cv.pdf " download>
+                    Download CV
+                  </a>
                 </button>
               </div>
             </div>

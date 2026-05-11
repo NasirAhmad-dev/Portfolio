@@ -22,11 +22,11 @@ function Skills() {
                   Professional skills that I have
                 </h1>
                 <p className="text-gray-300 tracking-wide ">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eveniet molestiae perferendis numquam ex esse sunt doloremque
-                  itaque maxime ducimus quos ut ad iste officiis dolor
-                  aspernatur et molestias, consequatur soluta?Lorem, ipsum dolor
-                  sit amet consectetur adipisicing elit. Dolor, cumque.
+                  I have experience working with modern web technologies and
+                  creating responsive, user-friendly websites. My skills include
+                  front-end development, UI/UX design, and building clean,
+                  efficient, and interactive web applications that deliver great
+                  user experiences.
                 </p>
               </div>
             </div>

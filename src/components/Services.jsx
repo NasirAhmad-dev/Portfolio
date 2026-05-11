@@ -12,13 +12,13 @@ function Services() {
               Those things I can do for mhy client
             </h1>
             <p className="text-lg text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+              I provide modern and responsive web development services focused
               <br />
-              repellat,obcaecati magnam est enim laborum, nostrum dolore
+              on creating fast, user-friendly, and visually appealing websites.
               <br />
-              cupiditate culpa temporibus ab iusto deleniti tenetur recusandae
+              My goal is to deliver high-quality digital solutions that help
               <br />
-              adipisci quibusdam amet ducimus cum!
+              businesses and individuals grow online.
             </p>
             <button className="w-auto h-16 border-3 rounded-full bg-violet-400 border-violet-400 text-white text-lg active:bg-orange-300 active:border-orange-300  md:w-50 cursor-pointer">
               <Link to="/Service">Service</Link>
@@ -33,8 +33,8 @@ function Services() {
               </div>
               <h1 className="text-3xl font-bold">Product Design</h1>
               <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Minima, atque.
+                Creating modern and creative product designs focused on
+                usability, clean layout, and user satisfaction.
               </p>
             </div>
             <div className="flex flex-col gap-y-5 rounded-3xl w-auto p-5  duration-300 hover:shadow-[0_0_10px_rgba(0,0,0,0.6)] bg-white">
@@ -43,8 +43,8 @@ function Services() {
               </div>
               <h1 className="text-3xl font-bold">Brand Identity</h1>
               <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Minima, atque.
+                Building unique brand identities that help businesses stand out
+                and connect with their audience.
               </p>
             </div>
             <div className="flex flex-col gap-y-5 rounded-3xl w-auto p-5  duration-300 hover:shadow-[0_0_10px_rgba(0,0,0,0.6)] bg-white ">
@@ -53,8 +53,8 @@ function Services() {
               </div>
               <h1 className="text-3xl font-bold">UI/UX Design</h1>
               <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Minima, atque.
+                Designing responsive and user-friendly interfaces that provide
+                smooth and engaging user experiences.
               </p>
             </div>
             <div className="flex flex-col gap-y-5 rounded-3xl w-auto p-5  duration-300 hover:shadow-[0_0_10px_rgba(0,0,0,0.6)] bg-white ">
@@ -63,8 +63,8 @@ function Services() {
               </div>
               <h1 className="text-3xl font-bold">Branding</h1>
               <p className="text-lg text-gray-600">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Minima, atque.
+                Helping brands grow through creative strategies, visual
+                identity, and consistent digital presence.
               </p>
             </div>
           </div>

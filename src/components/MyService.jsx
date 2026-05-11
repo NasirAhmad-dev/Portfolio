@@ -24,12 +24,11 @@ function MyService() {
                 Services
               </h1>
               <p className="text-md text-gray-400">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-                ipsa excepturi dolore optio pariatur harum illum labore
-                explicabo facilis consequuntur deserunt placeat libero obcaecati
-                sapiente sunt nisi officiis cumque praesentium quam totam, et ut
-                impedit! Officia quod hic accusantium obcaecati est beatae
-                voluptatum ab facere, ipsa explicabo et laborum doloremque?
+                I provide professional web development services focused on
+                creating modern, responsive, and user-friendly websites. My goal
+                is to build clean and interactive digital experiences that help
+                clients grow their online presence and achieve their business
+                goals.{" "}
               </p>
             </div>
           </div>
@@ -42,9 +41,10 @@ function MyService() {
               <br /> for my client
             </h1>
             <p className="text-gray-800 text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-              fugiat est culpa quos fugit ipsum? Rem, soluta quis modi animi
-              ullam, tempore quo excepturi eaque a ipsa autem rerum similique.
+              I help clients build modern and responsive websites with clean
+              design, smooth user experience, and high performance. My focus is
+              on creating digital solutions that are both visually attractive
+              and functional.{" "}
             </p>
           </div>
 
@@ -62,9 +62,10 @@ function MyService() {
             <div className="flex flex-col gap-3 md:items-start">
               <h1 className=" text-4xl font-bold">Product Design</h1>
               <p className="text-gray-800 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                magni ipsam esse obcaecati distinctio temporibus illo error iure
-                amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
+                I design user-friendly and modern digital products that focus on
+                usability, simplicity, and clean visual structure. My goal is to
+                create designs that solve real user problems and provide a
+                smooth experience across all devices.{" "}
               </p>
               <motion.button
                 onClick={() => setShow(1)}
@@ -76,16 +77,17 @@ function MyService() {
               </motion.button>
             </div>
             {show === 1 && (
-              <div className="px-5 absolute z-50 top-15 sm:left-2/23 md:left-2/12 lg:left-2/8">
+              <div className="px-5 absolute z-50 top-15 sm:left-2/23 md:left-2/12 lg:left-2/8 bg-red-500">
                 <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)]">
                   <h1 className="text-4xl font-semibold">
                     About Product Design
                   </h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloremque fuga quia aut laboriosam laudantium, ipsam
-                    excepturi distinctio. Similique rerum blanditiis possimus
-                    minus, at eos eaque tempora obcaecati unde porro nostrum.
+                    Product design is the process of planning and creating
+                    digital solutions that are both visually appealing and easy
+                    to use. It focuses on understanding user needs and turning
+                    them into practical, functional, and attractive interfaces
+                    that improve overall user experience.{" "}
                   </p>
                   <button
                     className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
@@ -114,9 +116,10 @@ function MyService() {
             <div className="flex flex-col gap-5 md:items-start">
               <h1 className=" text-4xl font-bold">Brandign</h1>
               <p className="text-gray-800 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                magni ipsam esse obcaecati distinctio temporibus illo error iure
-                amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
+                I help create strong and memorable brand identities that reflect
+                the personality and values of a business. My focus is on
+                building visual consistency, trust, and recognition across all
+                platforms.{" "}
               </p>
               <motion.button
                 onClick={() => setShow(2)}
@@ -132,10 +135,10 @@ function MyService() {
                 <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)]">
                   <h1 className="text-4xl font-semibold">About Branding</h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloremque fuga quia aut laboriosam laudantium, ipsam
-                    excepturi distinctio. Similique rerum blanditiis possimus
-                    minus, at eos eaque tempora obcaecati unde porro nostrum.
+                    Branding is the process of shaping how a business is seen by
+                    its audience. It includes visual identity, messaging, and
+                    design elements that work together to create a strong and
+                    consistent image.{" "}
                   </p>
                   <button
                     className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
@@ -164,9 +167,10 @@ function MyService() {
             <div className="flex flex-col gap-5 md:items-start">
               <h1 className=" text-4xl font-bold">Brand Identity</h1>
               <p className="text-gray-800 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                magni ipsam esse obcaecati distinctio temporibus illo error iure
-                amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
+                I create unique and consistent brand identities that represent a
+                business in a professional and memorable way. This includes
+                designing visual elements such as colors, typography, and style
+                that help build a strong brand presence.{" "}
               </p>
               <motion.button
                 onClick={() => setShow(3)}
@@ -184,10 +188,10 @@ function MyService() {
                     About Brand Identity
                   </h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloremque fuga quia aut laboriosam laudantium, ipsam
-                    excepturi distinctio. Similique rerum blanditiis possimus
-                    minus, at eos eaque tempora obcaecati unde porro nostrum.
+                    Brand identity is the visual and emotional expression of a
+                    brand. It helps businesses communicate their values and
+                    build trust with their audience through consistent design
+                    and presentation.{" "}
                   </p>
                   <button
                     className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
@@ -216,9 +220,10 @@ function MyService() {
             <div className="flex flex-col gap-5 md:items-start">
               <h1 className=" text-4xl font-bold">UI/UX Design</h1>
               <p className="text-gray-800 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                magni ipsam esse obcaecati distinctio temporibus illo error iure
-                amet vero dolorum inventore laboriosam, et ipsa? Recusandae quo
+                I design user-friendly and intuitive interfaces that improve
+                user experience and make digital products easy and enjoyable to
+                use. My focus is on usability, accessibility, and clean modern
+                design.{" "}
               </p>
               <motion.button
                 onClick={() => setShow(4)}
@@ -234,10 +239,10 @@ function MyService() {
                 <div className="relative max-w-[500px] flex  items-center flex-col bg-gray-300 p-10 rounded-lg mx-auto gap-10 shadow-[0_0_10px_rgba(0,0,0,.3)] ">
                   <h1 className="text-4xl font-semibold">About UI/UX</h1>
                   <p className="text-gray-500 text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quia, aspernatur atque? Earum, quas, eos soluta eum, dicta
-                    totam adipisci maiores nobis repellendus provident labore
-                    odio dignissimos. Sit dolore sed molestias?
+                    UI/UX design is about understanding users and creating
+                    interfaces that are simple, functional, and visually
+                    appealing. It focuses on improving the overall experience of
+                    digital products.{" "}
                   </p>
                   <button
                     className="bg-purple-400 rounded-md px-3 py-1 cursor-pointer text-white hover:bg-orange-400"
@@ -272,13 +277,11 @@ function MyService() {
                     <br /> on your mind
                   </h1>
                   <p className="text-md text-gray-400">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sit ipsa excepturi dolore optio pariatur harum illum labore
-                    explicabo facilis consequuntur deserunt placeat libero
-                    obcaecati sapiente sunt nisi officiis cumque praesentium
-                    quam totam, et ut impedit! Officia quod hic accusantium
-                    obcaecati est beatae voluptatum ab facere, ipsa explicabo et
-                    laborum doloremque?
+                    I am available to work on new projects and collaborate with
+                    clients who need modern, responsive, and high-quality web
+                    solutions. Whether it's a personal website, business
+                    platform, or UI design, I am ready to turn ideas into
+                    reality with clean and efficient development.{" "}
                   </p>
                   <div className="flex flex-col gap-5 text-xl mt-5 md:flex-row md:px-10">
                     <button className="w-auto h-15 border-3 rounded-full border-violet-500 bg-violet-500 text-white active:bg-orange-300 active:border-orange-300 md:px-5 lg:px-10 md:text-lg md:h-14 cursor-pointer">
@@ -286,7 +289,7 @@ function MyService() {
                     </button>
 
                     <button className="w-auto h-15  border-3 rounded-full border-violet-500 text-violet-500  active:bg-orange-300 active:text-white active:border-orange-300 md:px-5 lg:px-10 md:text-md md:h-15 cursor-pointer  text-center">
-                      <a href="/cv.pdf" download >
+                      <a href="/cv.pdf" download>
                         Download CV
                       </a>
                     </button>
