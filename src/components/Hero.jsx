@@ -60,32 +60,34 @@ function Hero() {
             <h1 className="text-4xl font-bold">500+</h1>
             <h2 className="text-3xl font-bold mb-5">Client</h2>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio, saepe.
+              I have worked with different clients to deliver modern and
+              responsive web solutions that meet their business needs and
+              improve their online presence.{" "}
             </p>
           </div>
           <div className="">
             <h1 className="text-5xl font-bold">650+</h1>
             <h2 className="text-3xl font-bold mb-5">Project Clear</h2>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio, saepe.
+              I have successfully completed multiple projects focused on clean
+              design, performance, and user experience using modern web
+              technologies.{" "}
             </p>
           </div>
           <div className="">
             <h1 className="text-5xl font-bold">1220</h1>
             <h2 className="text-3xl font-bold mb-5">Product Sales</h2>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio, saepe.
+              My work has contributed to improving digital products and helping
+              businesses increase their engagement and online results.{" "}
             </p>
           </div>
           <div className="">
             <h1 className="text-5xl font-bold">328</h1>
             <h2 className="text-3xl font-bold mb-5">Reward</h2>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio, saepe.
+              I continuously improve my skills and have been recognized for my
+              dedication, creativity, and quality of work in web development.
             </p>
           </div>
         </div>
